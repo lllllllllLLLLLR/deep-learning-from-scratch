@@ -1,6 +1,6 @@
 # Deep Learning from Scratch — NumPy to PyTorch CNN / VAE
 
-A collection of student lab notebooks from a graduate-level deep learning course, progressing from raw NumPy implementations to PyTorch-based CNNs and variational autoencoders.
+A  graduate-level deep learning exercises, progressing from raw NumPy implementations to PyTorch-based CNNs and variational autoencoders.
 
 ## Highlights
 
@@ -33,10 +33,3 @@ jupyter lab
 | `lab6_pytorch.ipynb` | Same CNN task reimplemented with PyTorch `nn` |
 | `lab7_vae.ipynb` | Variational autoencoder in PyTorch, with generated sample grids |
 | `dataset_loader.py` | Shared MNIST loader used by labs 3, 5, 6, 7 |
-
-## Notes
-
-- These are **coursework / lab exercises** completed during the deep learning course. Notebooks keep their original `student` skeleton with the filled-in solution cells.
-- File names were normalised from the original `LabX-Name-student.ipynb` form to `labX_topic.ipynb` for readability; the content is unchanged.
-- No hard-coded API keys or secrets were found during cleanup.
-- Excluded from the repo: `.venv/`, `__pycache__/`, `mnist.pkl.gz` (dataset), and the lecture PDFs / paper PDF that shipped alongside the labs.
